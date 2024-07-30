@@ -1,0 +1,202 @@
+.DragDrop-ModalBox {
+  width: 750px !important;
+  border-radius: 20px;
+  max-height: 85vh !important;
+  height: 100% !important;
+  background-color: rgb(32, 31, 31);
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-top: 2%;
+}
+.ModalHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ModalHeader1 {
+  display: flex;
+}
+
+.ModalHeader1 p {
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+}
+
+.Favourite-ChainDiv {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.Favourite-ChainDiv p {
+  font-size: 13px;
+  color: #a09b9b;
+  font-weight: 600;
+}
+
+.DragDrop-GreyLine {
+  flex-grow: 1;
+  height: 0.1px; /* Adjust height as needed */
+  background-color: #a09b9b; /* Just for visibility */
+  margin: 0 0.1px; /* Adjust margin as needed */
+  margin-top: 50px;
+  margin-top: 10px;
+}
+
+.DropDownModal-IconBox {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  min-height: 10vh;
+  padding: 5px 0px;
+  background-color: none;
+  background: none;
+  color: #a09b9b;
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scrollbar if any */
+  max-height: 60vh; /* Adjust as needed to control the maximum height */
+}
+
+.DropDownIconBody-Width {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust as needed */
+}
+
+.DropModalIcon-Body {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  cursor: pointer;
+  height: 60px;
+  padding: 5px;
+  padding-top: 15px;
+  background-color: none;
+  background: none;
+  border-radius: 15px;
+  font-weight: 800;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Hover-Appear {
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.DropModalIcon-Body img {
+  width: 25px;
+  margin-top: 0px;
+}
+
+.DropModalIcon-Body:hover {
+  background-color: #a09b9b7f;
+  background: #a09b9b74;
+
+  .Hover-Appear {
+    display: block;
+  }
+}
+
+/* DragDropModal.css */
+
+.EmptyMessage {
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.OverlayText {
+  color: white;
+  font-size: 24px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 800px) {
+  .DragDrop-ModalBox {
+    width: 95% !important;
+    min-width: 500px !important;
+    border-radius: 20px;
+    min-height: 80vh !important;
+    height: 100% !important;
+    background-color: rgb(32, 31, 31);
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top: 5%;
+  }
+
+  .DropModalIcon-Body {
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+    cursor: pointer;
+    height: 60px;
+    padding: 5px;
+    padding-top: 15px;
+    background-color: none;
+    background: none;
+    border-radius: 15px;
+    font-weight: 800;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .DragDrop-ModalBox {
+    border-radius: 20px;
+    width: 95% !important;
+    min-width: 30px !important;
+    min-height: 80vh !important;
+    height: 100% !important;
+    background-color: rgb(32, 31, 31);
+    margin: auto;
+    padding-bottom: 0px;
+    margin-top: 5%;
+  }
+
+  .DropModalIcon-Body {
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+    cursor: pointer;
+    height: 60px;
+    padding: 5px;
+    padding-top: 15px;
+    background-color: none;
+    background: none;
+    border-radius: 15px;
+    font-weight: 800;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}

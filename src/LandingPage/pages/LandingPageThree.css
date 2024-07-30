@@ -1,0 +1,183 @@
+.LP-ThreeSection {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding: 20px 0px;
+}
+
+.LPThree-Header {
+  text-align: center;
+  margin: 30px 0px;
+  color: white;
+}
+
+.LPThree-Header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.LPThree-Header p {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.LPThree-SliderSection {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.LPThree-SliderBoxes {
+  width: 700px;
+  height: 100%;
+  min-height: 400px;
+  padding: 5px;
+  margin-right: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.355);
+  border-radius: 20px;
+}
+
+.LPThree-SliderWidth {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  margin-top: 40px;
+}
+
+.SliderBigP {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin: 10px 0px;
+  text-align: left;
+  width: 90%;
+}
+
+.SliderSmallP {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 20px 0px;
+  color: #dedada;
+  text-align: left;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.SliderDiv {
+  margin-top: 20px;
+}
+
+.LPThree-SliderImgDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  overflow: auto;
+  animation: slide 20s linear infinite;
+}
+.LPThree-SliderImgBox {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 10px;
+  border-radius: 17px;
+  background-color: tan;
+  color: white;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .LPThree-SliderSection {
+    display: block;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .LPThree-SliderBoxes {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    min-height: 320px;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+
+  .LPThree-SliderImgDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    overflow: auto;
+    animation: slide 20s linear infinite;
+  }
+  .SliderBigP {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin: 10px 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .SliderSmallP {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: #dedada;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .LPThree-Header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .LPThree-Header p {
+    font-size: 17px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .SliderBigP {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .SliderSmallP {
+    font-size: 16px;
+    font-weight: 500;
+    color: #dedada;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}

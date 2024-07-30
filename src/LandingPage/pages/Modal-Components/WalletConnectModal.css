@@ -1,0 +1,150 @@
+/* WalletConnectModal.css */
+
+.WalletConnectModal {
+  width: 400px !important;
+  height: 420px !important;
+  border-radius: 20px !important;
+  background-color: rgb(26, 25, 25) !important;
+  margin: auto;
+  margin-top: 100px !important;
+  box-shadow: 1px 3px 16px 0px rgba(22, 15, 29, 0.578);
+}
+
+.custom-modal-overlay {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  backdrop-filter: blur(3px); /* Apply blur effect */
+}
+
+.modal-content {
+  width: 97%;
+  margin: auto;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  color: white;
+  transition: border 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.modal-head {
+  width: 92%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.modal-title {
+  margin-top: 10px !important;
+}
+
+.modal-element {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: -10px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-element:hover {
+  background-color: #444444; /* Grey background on hover */
+}
+
+.modal-element-content {
+  display: flex;
+}
+
+.modal-element-title-first {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.modal-content:hover {
+  border-color: rgb(0, 128, 122); /* Green border on hover */
+}
+
+.modal-content.selected {
+  border-color: rgb(0, 128, 122); /* Green border when selected */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-header a,
+.modal-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-header svg {
+  fill: currentColor;
+}
+
+.modal-title {
+  margin-top: 16px;
+  color: white;
+  font-size: 20px;
+}
+
+.modal-menu {
+  padding: 10px;
+}
+
+.modal-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.modal-menu-item img {
+  margin-right: 10px;
+}
+
+.modal-menu-item.selected {
+  border-color: rgb(0, 128, 122);
+}
+
+.modal-menu-item:hover {
+  border-color: rgb(0, 128, 122);
+}
+
+@media screen and (max-width: 420px) {
+  .WalletConnectModal {
+    width: 370px !important;
+    height: 420px !important;
+    border-radius: 20px !important;
+    background-color: rgb(26, 25, 25) !important;
+    margin: auto;
+    margin-top: 100px !important;
+  }
+  .modal-element {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: -15px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+  }
+}
